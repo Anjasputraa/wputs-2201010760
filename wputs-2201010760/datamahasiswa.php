@@ -141,7 +141,7 @@ if (isset($_POST['simpan'])) { // CREATE
 
                             <!-- Modal body -->
                             <div class="modal-body">
-                                Yakin ingin keluar?
+                                Apakah yakin ingin keluar?
                             </div>
 
                             <!-- Modal footer -->
