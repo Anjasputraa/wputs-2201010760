@@ -109,7 +109,7 @@ if (isset($_POST['login'])) {
                 <input class="form-control" type="password" name="password" placeholder="Masukkan password">
             </div>
 
-            <button class="btn btn-primary w-100" type="submit" name="login"> Login </button>
+            <button class="btn btn-success w-100" type="submit" name="login"> Login </button>
 
             <div> <br>
                 Belum punya akun? <a href="register.php"> Register </a>
