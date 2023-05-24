@@ -64,7 +64,7 @@ if (isset($_POST['login'])) {
             height: min-content;
             padding: 20px;
             border-radius: 12px;
-            background-color: #e6f2e6;
+            background-color: rgb(214, 235, 250);
         }
 
         .login h1 {
@@ -88,7 +88,7 @@ if (isset($_POST['login'])) {
 <body>
 
     <div class="login">
-        <h1 class="text-center">Form Login</h1> <br>
+        <h1 class="text-center">Login</h1> <br>
         <?php
         if ($err) {
         ?>
