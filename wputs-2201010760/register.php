@@ -138,7 +138,7 @@ if (isset($_POST["register"])) {
                 <input class="form-control" type="password" name="konfirmasi" placeholder="Masukkan konfirmasi password">
             </div>
 
-            <button class="btn btn-primary w-100" type="submit" name="register"> Register </button>
+            <button class="btn btn-success w-100" type="submit" name="register"> Register </button>
 
             <div> <br>
                 sudah punya akun? <a href="login.php"> Login </a>
