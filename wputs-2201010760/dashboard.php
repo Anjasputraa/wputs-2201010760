@@ -22,12 +22,6 @@ if (!isset($_SESSION['username'])) {
     <!-- Latest compiled JavaScript -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
 
-    <style>
-        .dashboard h1 {
-            margin-bottom: 20px;
-        }
-    </style>
-
 </head>
 
 <body>
@@ -71,7 +65,7 @@ if (!isset($_SESSION['username'])) {
 
                             <!-- Modal body -->
                             <div class="modal-body">
-                                Yakin ingin keluar?
+                                Apakah yakin ingin keluar?
                             </div>
 
                             <!-- Modal footer -->
@@ -85,10 +79,10 @@ if (!isset($_SESSION['username'])) {
 
     <div class="dashboard container"> <br> <br>
         <h1 class="text-center">Selamat Datang!</h1> <br>
-        <h5 class="text-center">Perkenalkan saya Komang Agus Anjas Putra dengan NIM : 2201010760 <br>
+        <p class="text-center">Perkenalkan saya Komang Agus Anjas Putra dengan NIM : 2201010760 <br>
             untuk memenuhi Ujian Tengah Semester dalam mata kuliah Pemrograman Web,
             disini saya menerapkan metode Create, Update, Read dan Delete ( CRUD ) untuk mengolah data. 
-            Dalam project ini, saya menyelesaikan pengolahan Data Mahasiswa. </h5>
+            Dalam project ini, saya menyelesaikan pengolahan Data Mahasiswa. </p>
     </div>
 
 </body>
