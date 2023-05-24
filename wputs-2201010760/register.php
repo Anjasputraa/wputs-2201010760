@@ -19,7 +19,7 @@ if (isset($_POST["register"])) {
             $sql    = "INSERT INTO tbusers(nama,email,username,passkey,iduser) VALUES('$nama','$email','$username','" . md5($passkey) . "','" . md5($nama) . "');";
             $hasil  = mysqli_query($cnn, $sql);
             if ($hasil) {
-                $sukses     = "Register User Sukses, Silahkan login dengan username tersebut!";
+                $sukses     = "Register Berhasil, Silahkan login dengan username tersebut!";
                 $nama       = "";
                 $email      = "";
                 $username   = "";
@@ -70,7 +70,7 @@ if (isset($_POST["register"])) {
             height: min-content;
             padding: 20px;
             border-radius: 12px;
-            background-color: #e6f2e6;
+            background-color: rgb(214, 235, 250);
         }
 
         .register h1 {
